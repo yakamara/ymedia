@@ -1,0 +1,34 @@
+ymedia = YMedia
+ymedia_title = YMedia
+ymedia_pool_title = Mediapool
+
+
+ymedia_media_title = Titel
+ymedia_media_create_datetime = Erstellt am
+ymedia_media_update_datetime = Letztes Update
+ymedia_media_create_user = Erstellt von
+ymedia_media_update_user = Letztes Update von
+ymedia_media_tags = Tags
+ymedia_media_categories = Kategorien
+ymedia_media_media = Datei
+
+ymedia_error_empty = Es wurde keine Datei ausgewählt
+
+ymedia_tags_title = Tags
+ymedia_tag_name = Name
+
+ymedia_category_title = Kategorien
+ymedia_category_name = Name
+
+ymedia_settings_title = Settings
+
+ymedia_docs_title = Docs
+
+ymedia_error_enter_tags = Bitte mindestens einen Tag auswählen
+
+
+
+yform_values_media_config = Konfiguration (JSON oder Callback)
+yform_values_media_config_notice = Beispiel: Als Callback: class::method oder als json <br />{"path":"ymedia",""sizes":{"min":0,"max":15360000},"allowed_extensions":["jpg","zip"],"disallowed_extensions":["exe"],"check":["multiple_extensions","zip_archive"],"messages":{"min_error":"min_error_msg","max_error":"max_error_msg","type_error":"type_error_msg","empty_error":"empty_error_msg","system_error":"system_error_msg","type_multiple_error":"type_multiple-msg","zip-type_error":"zip-type_error-msg {0}","type_zip_error":"type_zip_error-msg","delete_file":"delete_file_msg"}}
+yform_values_media_required = Pflichtfeld
+yform_values_media_description = Feld um Dateien in bestimmte Ordner zu spielen
